@@ -1,0 +1,22 @@
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #ffffff;
+  gap: 36px;
+  max-width: 938px;
+  margin: 0 auto;
+  padding: 0 36px;
+  padding-top: 21px;
+}
+
+.alert-search,
+.alert-rated {
+  max-width: 938px;
+  margin: 0 auto;
+  margin-top: 21px;
+}
+
+.content {
+  margin-top: 40px;
+}
