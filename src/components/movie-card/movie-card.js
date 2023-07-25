@@ -81,8 +81,8 @@ export function MovieCard(props) {
   return (
     <li className='movie-card'>
       <img className='movie-card__poster' src={posterImg} alt='Постер фильма' />
-      <div className='movie-card__inner'>
-        <div>
+      <div className='movie-card__wrapper'>
+        <div className='movie-card__inner'>
           <h3 className='movie-card__title'>{title}</h3>
           <div className='movie-card__rating' style={{ borderColor: voteAverageColor }}>
             {movieRating}
